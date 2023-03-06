@@ -1,12 +1,12 @@
 package com.springpractice.learnspringframework.game;
 
-public class MarioGame implements GamingConsole{
+public class SuperContraGame implements GamingConsole{
 	public void up() {
-		System.out.println("Jump");
+		System.out.println("Up");
 	}
 	
 	public void down() {
-		System.out.println("Go into pipe");
+		System.out.println("Sit down");
 	}
 	
 	public void left() {
@@ -14,6 +14,6 @@ public class MarioGame implements GamingConsole{
 	}
 	
 	public void right() {
-		System.out.println("Accelerate");
+		System.out.println("Shoot a bullet");
 	}
 }
